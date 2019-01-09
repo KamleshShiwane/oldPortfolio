@@ -2,12 +2,14 @@
   <div class="content">
     <div class="projects">
       <div class="project-container" v-for="project in projects" v-bind:key="project.name">
-        <div class="project-img" :style="{'background-image': 'url('+ project.img + ')'}"></div>
-        <div class="project-color"></div>
-        <div class="project-info">
-          <p class="project-name">{{project.name}}</p>
-          <p class="project-desc">{{project.desc}}</p>
-        </div>
+        <router-link active-class="active" :to="project.link" exact>
+          <div class="project-img" :style="{'background-image': 'url('+ project.img + ')'}"></div>
+          <div class="project-color"></div>
+          <div class="project-info">
+            <p class="project-name">{{project.name}}</p>
+            <p class="project-desc">{{project.desc}}</p>
+          </div>
+        </router-link>
       </div>
     </div>
   </div>
@@ -23,38 +25,47 @@ export default {
           name: "Raccoonal",
           desc: "An emotional journal & companion for you.",
           img:
-            "https://github.com/ReventonC/websiteAssets/blob/master/RaccoonalSlide.png?raw=true"
+            "https://github.com/ReventonC/websiteAssets/blob/master/RaccoonalSlide.jpg?raw=true",
+          link: "/raccoonal"
         },
         {
           name: "ucsd.github.io",
           desc:
             "The official website of UCSD JSA (Japanese Student Association).",
+          link: "/JSA",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/JSAbanner.jpg?raw=true"
         },
         {
           name: "cogs18.github.io",
           desc: "Class website for COGS 18: Intro to Python.",
-          img: ""
+          link: "/raccoonal",
+          img:
+            "https://github.com/ReventonC/websiteAssets/blob/master/cogs18logo.png?raw=true"
         },
         {
           name: "Pantry",
           desc: "A virtual pantry kitchen.",
-          img: ""
+          link: "/raccoonal",
+          img:
+            "https://github.com/ReventonC/websiteAssets/blob/master/Pantry.png?raw=true"
         },
         {
           name: "JSA Event Planner",
           desc: "",
+          link: "/raccoonal",
           img: ""
         },
         {
           name: "Ray tracer",
           desc: "",
+          link: "/raccoonal",
           img: ""
         },
         {
           name: "San Diego Road Condition & Accident",
           desc: "",
+          link: "/raccoonal",
           img: ""
         }
       ]
@@ -124,7 +135,6 @@ export default {
     }
   }
 
-  
   &:hover {
     .project-img {
       filter: blur(5px) opacity(0.8);
@@ -134,7 +144,7 @@ export default {
     }
 
     .project-info {
-        transition: 1s;
+      transition: 1s;
       .project-desc {
         max-height: 500px;
         opacity: 1;

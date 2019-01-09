@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import About from '@/components/About'
 import Portfolio from '@/components/Portfolio'
+import Raccoonal from '@/components/Raccoonal'
+import JsaWebsite from '@/components/JsaWebsite'
 
 Vue.use(Router)
 
@@ -17,6 +19,16 @@ export default new Router({
             path: '/About',
             name: 'About',
             component: About
+        },
+        {
+            path: '/Raccoonal',
+            name: 'Raccoonal',
+            component: Raccoonal
+        },
+        {
+            path: '/JSA',
+            name: 'UCSD JSA',
+            component: JsaWebsite
         }
     ]
 })
