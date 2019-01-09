@@ -29,7 +29,7 @@ export default {
           link: "/raccoonal"
         },
         {
-          name: "ucsd.github.io",
+          name: "UCSD-JSA.github.io",
           desc:
             "The official website of UCSD JSA (Japanese Student Association).",
           link: "/JSA",
@@ -37,7 +37,7 @@ export default {
             "https://github.com/ReventonC/websiteAssets/blob/master/JSAbanner.jpg?raw=true"
         },
         {
-          name: "cogs18.github.io",
+          name: "COGS18.github.io",
           desc: "Class website for COGS 18: Intro to Python.",
           link: "/raccoonal",
           img:
@@ -50,6 +50,7 @@ export default {
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/Pantry.png?raw=true"
         },
+        /* 
         {
           name: "JSA Event Planner",
           desc: "",
@@ -67,7 +68,7 @@ export default {
           desc: "",
           link: "/raccoonal",
           img: ""
-        }
+        }*/
       ]
     };
   }
@@ -85,7 +86,6 @@ export default {
   flex-wrap: wrap;
 }
 .project-container {
-  cursor: pointer;
   margin: 50px auto;
   position: relative;
   flex: 0 0 35vw;
@@ -110,6 +110,7 @@ export default {
   }
 
   .project-info {
+    cursor: pointer;
     position: absolute;
     bottom: 0;
     width: 100%;
