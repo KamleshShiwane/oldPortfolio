@@ -39,14 +39,14 @@ export default {
         {
           name: "COGS18.github.io",
           desc: "Class website for COGS 18: Intro to Python.",
-          link: "/raccoonal",
+          link: "/",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/cogs18logo.png?raw=true"
         },
         {
           name: "Pantry",
           desc: "A virtual pantry kitchen.",
-          link: "/raccoonal",
+          link: "/",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/Pantry.png?raw=true"
         },
