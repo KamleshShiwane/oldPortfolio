@@ -4,6 +4,7 @@ import About from '@/components/About'
 import Portfolio from '@/components/Portfolio'
 import Raccoonal from '@/components/Raccoonal'
 import JsaWebsite from '@/components/JsaWebsite'
+import Pantry from '@/components/Pantry'
 import CV from '@/components/CV'
 
 Vue.use(Router)
@@ -35,6 +36,11 @@ export default new Router({
             path: '/CV',
             name: 'CV',
             component: CV
+        },
+        {
+            path: '/Pantry',
+            name: 'Pantry',
+            component: Pantry
         }
     ]
 })

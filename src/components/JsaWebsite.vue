@@ -265,7 +265,7 @@ h1 {
 
       &:hover {
         background-color: rgba(#c9397e, 0.7);
-        border: rgba(#c9397e, 0.7) 1px;
+        border: rgba(#c9397e, 0.7) 1px solid;
         color: white;
       }
     }

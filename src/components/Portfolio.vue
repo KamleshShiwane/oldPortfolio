@@ -46,7 +46,7 @@ export default {
         {
           name: "Pantry",
           desc: "A virtual pantry kitchen.",
-          link: "/",
+          link: "/Pantry",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/Pantry.png?raw=true"
         },

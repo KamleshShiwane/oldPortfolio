@@ -298,7 +298,7 @@ h1 {
 
       &:hover {
         background-color: rgba(#face11, 0.7);
-        border: rgba(#face11, 0.7) 1px white;
+        border: rgba(#face11, 0.7) 1px solid;
         color: white;
       }
     }
