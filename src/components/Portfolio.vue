@@ -22,11 +22,18 @@ export default {
     return {
       projects: [
         {
+          name: "Family Proud",
+          desc: "Deliver peace and mind to patients & families.",
+          img:
+            "https://github.com/ReventonC/websiteAssets/blob/master/FamilyProud.png?raw=true",
+          link: "/FamilyProud"
+        },
+        {
           name: "Raccoonal",
           desc: "An emotional journal & companion for you.",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/RaccoonalSlide.jpg?raw=true",
-          link: "/raccoonal"
+          link: "/Raccoonal"
         },
         {
           name: "UCSD-JSA.github.io",
@@ -49,7 +56,7 @@ export default {
           link: "/Pantry",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/Pantry.png?raw=true"
-        },
+        }
         /* 
         {
           name: "JSA Event Planner",
@@ -113,7 +120,6 @@ export default {
     cursor: pointer;
     position: absolute;
     bottom: 0;
-    width: 100%;
     padding: 30px 20px 10px;
 
     background-image: linear-gradient(
@@ -128,6 +134,7 @@ export default {
     }
     .project-name {
       font-size: 4em;
+      width: 100%;
     }
     .project-desc {
       max-height: 0;

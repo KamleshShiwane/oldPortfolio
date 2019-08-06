@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import About from '@/components/About'
 import Portfolio from '@/components/Portfolio'
+import FamilyProud from '@/components/FamilyProud'
 import Raccoonal from '@/components/Raccoonal'
 import JsaWebsite from '@/components/JsaWebsite'
 import Pantry from '@/components/Pantry'
@@ -41,6 +42,11 @@ export default new Router({
             path: '/Pantry',
             name: 'Pantry',
             component: Pantry
+        },
+        {
+            path: '/FamilyProud',
+            name: 'FamilyProud',
+            component: FamilyProud
         }
     ]
 })

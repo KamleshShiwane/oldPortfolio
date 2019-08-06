@@ -166,7 +166,9 @@ table {
     border-spacing: 10px;
 }
 
-.education {
+.education,
+.experience,
+.teach {
   td {
     font-size: 1.2em;
   }
@@ -177,22 +179,10 @@ table {
 }
 
 .experience {
-  td {
-    font-size: 1.2em;
-  }
-
-  .date {
-    font-size: 1em;
-  }
+  
 }
 
 .teach {
-  td {
-    font-size: 1.2em;
-  }
-
-  .date {
-    font-size: 1em;
-  }
+  
 }
 </style>
