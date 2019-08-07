@@ -4,8 +4,7 @@
         <img class="avatar"/>
     -->
     <p class="intro">
-      Hello, my name is Zehua Chen.
-      I am a senior year Undergraduate Student major in Cognitive Science / Human-computer Interaction with a minor in Computer Science at UCSD. I'm currently looking for job and reseach Oppotunities in the HCI field, while applying for Graduate Programs in the related area. You can find my quickest summary from my
+      Hello, my name is Zehua Chen. I was born and raised in Shanghai, China. I recently graduated from UC San Diego with a B.S. in Cognitive Science / Human-computer Interaction and will be studying at Georgia Tech, pursuing a M.S in Digital Media. You can find my quickest summary from my
       <a>CV</a>, or checkout my
       <a>portfolio</a>.
     </p>
@@ -25,7 +24,6 @@ export default {
 .content {
   max-width: 70%;
   margin: 10% auto;
-
   p {
       font-size: 2em;
   }

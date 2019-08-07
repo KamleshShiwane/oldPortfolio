@@ -22,7 +22,7 @@ export default {
     return {
       projects: [
         {
-          name: "Family Proud",
+          name: "Family Proud, Inc.",
           desc: "Deliver peace and mind to patients & families.",
           img:
             "https://github.com/ReventonC/websiteAssets/blob/master/FamilyProud.png?raw=true",
