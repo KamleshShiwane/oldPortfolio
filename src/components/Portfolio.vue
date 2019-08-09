@@ -25,14 +25,14 @@ export default {
           name: "Family Proud, Inc.",
           desc: "Deliver peace and mind to patients & families.",
           img:
-            "https://github.com/ReventonC/websiteAssets/blob/master/FamilyProud.png?raw=true",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-73d2d.appspot.com/o/FamilyProud.png?alt=media&token=a1a1c18d-b72a-4d4b-a434-86d1a703605d",
           link: "/FamilyProud"
         },
         {
           name: "Raccoonal",
           desc: "An emotional journal & companion for you.",
           img:
-            "https://github.com/ReventonC/websiteAssets/blob/master/RaccoonalSlide.jpg?raw=true",
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-73d2d.appspot.com/o/RaccoonalSlide.jpg?alt=media&token=2a306e62-636a-45e7-94b3-0e526f3669e3",
           link: "/Raccoonal"
         },
         {
@@ -41,21 +41,21 @@ export default {
             "The official website of UCSD JSA (Japanese Student Association).",
           link: "/JSA",
           img:
-            "https://github.com/ReventonC/websiteAssets/blob/master/JSAbanner.jpg?raw=true"
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-73d2d.appspot.com/o/JSAbanner.jpg?alt=media&token=c3e52a21-6e90-45e1-ab87-ebdff0a04946"
         },
         {
           name: "COGS18.github.io",
           desc: "Class website for COGS 18: Intro to Python.",
           link: "/",
           img:
-            "https://github.com/ReventonC/websiteAssets/blob/master/cogs18logo.png?raw=true"
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-73d2d.appspot.com/o/cogs18logo.png?alt=media&token=80a13d26-1f10-4009-bc07-2e0d7fcaef28"
         },
         {
           name: "Pantry",
           desc: "A virtual pantry kitchen.",
           link: "/Pantry",
           img:
-            "https://github.com/ReventonC/websiteAssets/blob/master/Pantry.png?raw=true"
+            "https://firebasestorage.googleapis.com/v0/b/portfolio-73d2d.appspot.com/o/Pantry.png?alt=media&token=9efa65a1-50d7-4c5c-9a74-7c291eaeaf16"
         }
         /* 
         {
@@ -120,7 +120,7 @@ export default {
     cursor: pointer;
     position: absolute;
     bottom: 0;
-    padding: 30px 20px 10px;
+    width: 100%;
 
     background-image: linear-gradient(
       to bottom,
@@ -135,11 +135,13 @@ export default {
     .project-name {
       font-size: 4em;
       width: 100%;
+      margin: 30px 20px 0px;
     }
     .project-desc {
       max-height: 0;
       opacity: 0;
       font-size: 2em;
+      margin: 0px 20px 10px;
     }
   }
 
